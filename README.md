@@ -1,4 +1,4 @@
 easydocs
 ========
 
-a easy docs!演示地址www.gaoshuju.com
+a easy docs! 演示地址www.gaoshuju.com
