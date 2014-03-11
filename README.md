@@ -1,4 +1,5 @@
 easydocs
 ========
 
-a easy docs! —› æµÿ÷∑www.gaoshuju.com
+a easy docs!
+[id]: http://www.gaoshuju.com/  "URL"
