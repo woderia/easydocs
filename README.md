@@ -1,4 +1,4 @@
 easydocs
 ========
 
-a easy docs
+a easy docs!—› æµÿ÷∑www.gaoshuju.com
