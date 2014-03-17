@@ -224,7 +224,7 @@ function doSearch(){
 		
 		<li ondblclick="location.href='<%=request.getContextPath()%>/sheet'" class="file_item list_item" istemplate="false" ispublish="private" tp="chart" category="uncategorized" id="531c542b0cf293635d7eee5e" img="/chart_image/thumb/531c542b0cf293635d7eee60.png" date='2014-03-09 19:44' modify='2014-03-09 19:44' tit="中国社会化媒体营销China Social Media Sites">
 			<div class="title">
-				<span class="ico diagram"></span><a href="<%=request.getContextPath()%>/sheet">中国社会化媒体营销China Social Media Sites</a>
+				<span class="ico diagram"></span><a href="<%=request.getContextPath()%>/sheet">六月流失用户分析</a>
 				
 			</div>
 			<div class="owner">正飞啊飞</div>
@@ -233,7 +233,7 @@ function doSearch(){
 		
 		<li ondblclick="location.href='<%=request.getContextPath()%>/sheet'" class="file_item list_item" istemplate="false" ispublish="private" tp="chart" category="uncategorized" id="52f8ba380cf219d80f344e7c" img="/chart_image/thumb/52f8ba8a0cf219d80f344f25.png" date='2014-02-10 19:38' modify='2014-02-10 19:39' tit="easydata-v1">
 			<div class="title">
-				<span class="ico diagram"></span><a href="<%=request.getContextPath()%>/sheet" target="blank">easydata-v1</a>
+				<span class="ico diagram"></span><a href="<%=request.getContextPath()%>/sheet" target="blank">成交明细数据</a>
 				
 			</div>
 			<div class="owner">正飞啊飞</div>
