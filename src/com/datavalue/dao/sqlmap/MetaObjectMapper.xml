@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.datavalue.dao.MetaObjectDao">
+    
+	
+	<select id="select"  resultMap="metaObject"  >
+	   select id,code,name,owner_id,type,gmt_created,gmt_modified 
+	   from meta_object
+	</select>    
+	    
+	<insert id="insert" parameterType="MetaObject">
+		insert into meta_object (code,name,ownerId,type,gmtCreated,gmtModified )
+		 values(#{code},#{name},#{ownerId},#{type},#{gmtCreated},#{gmtModified})
+	</insert>
+	
+	<delete id="delete" parameterType="int" >
+	    delete from meta_object where id = #{id}
+	</delete>
+	
+	 <resultMap type="MetaObject" id="metaObject">
+	     <id property="id" column="id" />  
+	     <result property="code" column="code"/>  
+	     <result property="name" column="name"/>
+	     <result property="ownerId" column="owner_id"/>
+		 <result property="type" column="type"/>  
+	     <result property="gmtCreated" column="gmt_created"/>
+	     <result property="gmtModified" column="gmt_modified"/>
+	</resultMap>
+	
+</mapper>

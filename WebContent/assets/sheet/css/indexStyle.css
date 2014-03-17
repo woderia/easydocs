@@ -1,0 +1,206 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+}
+.index {
+  height:25%;
+}
+.head {
+  height: 3%;
+}
+.indexHead {
+  color: blue;
+  font-size: 12px;
+  height: 80%
+}
+.indexMiddle {
+	padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: 350px;
+  margin: 60px auto 60px auto;
+}
+.indexSearch {
+	width: 750px;
+	margin: 0 auto 10px auto;
+}
+.img_head {
+  margin-bottom: -10px;
+}
+.text_head {
+  font-size: 45px;
+  color: red;
+}
+.text_search {
+  width: 600px;
+  height: 30px;
+  font: 16px/22px arial;
+}
+.dataOften {
+  height: 30%;
+  width :700px;
+  margin: 0 auto 250px auto;
+  display: block;
+}
+.often{
+  float: left;
+  display: inline;
+  width: 40%;
+  height: 99%;  
+}
+.oftenReport{
+   margin: 0px;
+   border-left: 1px solid #AAA;
+   border-bottom: 1px solid #AAA;
+}
+.oftenTarget{
+   margin: 0px;
+   border-right: 1px solid #AAA;
+   border-left: 1px solid #AAA;
+   border-bottom: 1px solid #AAA;
+}
+.oftenTitle{
+  height: 20px;
+  font-size: 15px;
+  width: 80%;
+  border: 1px solid #AAA;
+  padding: 3px 0px 0px 1px; 
+  background: #DDD;
+}
+.oftenText{
+  margin-left: 20px;
+  margin-top: 10px;
+  position: absolute;
+}
+.searchSpan{
+  width: 600px;
+  height: 30px;
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 5px;
+  position: relative;
+}
+.buttomSpan{
+  width: 97px;
+  height: 34px;
+  display: inline-block;
+  background: url(i-1.0.1.png) no-repeat -202px 0;
+  z-index: 0;
+  vertical-align: top;
+}
+.button_search{
+  width: 95px;
+  height: 32px;
+  padding-top: 4px;
+  margin-top: 3px;
+  font-size: 14px;
+  background: #DDD url(../img/i-1.0.1.png);
+  cursor: pointer;
+}
+.indexDate {
+  float: left;
+  margin-left: 10px;
+} 
+.indexRight{
+  float: right;
+  margin-right: 10px;
+}
+.indexBottom{
+  height: 6%;
+  margin: 0 auto;
+  display: block;
+}
+.bottomText{
+  margin-right: 60px;
+  float: right;
+  font-size:14px;
+  color: #AAA
+}
+.resHead{
+  width: 99%;
+  height: 5%;
+  margin: 10px 10px;
+}
+.buycar{
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 19px;
+  background: #AAA;
+  margin-right: 1px;
+  margin-top: 5px;
+}
+.subres1{
+  width: 99%;
+}
+.subres2{
+  height: 80%;
+  width: 99%;
+}
+
+.subres2_1{
+  float: left;
+  height: 99%;
+  width: 15%;
+  border: 1px solid #AAA;
+}
+.subres2_2{
+  float: left;
+  height: 99%;
+  width: 69%;
+  overflow: scroll;
+  border: 1px solid #AAA;
+}
+.subres2_3{
+  float: left;
+  height: 99%;
+  width: 15%;
+  border: 1px solid #AAA;
+}
+.subres2_1_1{
+  height: 4%;
+  background: #DDD;
+}
+.subres1_div_1{
+  width: 15%;
+  height: 99%;
+  float: left;
+  margin-right: 5px;
+}
+
+.subres1_select{
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+}
+.hide {
+  display: none;
+}
+.resspan{
+   float: left;
+}
+.resCur{
+  cursor: pointer;
+}
+.deleteText{
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 1000;
+  cursor: pointer;
+  left:585px;
+  top:8px;
+}
+.deleteTreeText{
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 1000;
+  cursor: pointer;
+  left:210px;
+  top:5px;
+}
